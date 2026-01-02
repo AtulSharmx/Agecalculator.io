@@ -2,7 +2,7 @@
 
 A small, fast, and accessible web app that calculates your age in years, months, and days from a provided date of birth. Built with plain HTML, CSS and JavaScript so it's easy to inspect, learn from, and host anywhere.
 
-[Live Demo](https://agecalculatorio.vercel.app) · [Open in GitHub Pages (optional)](https://atulsharmx.github.io/Agecalculator.io/)
+[Live Demo](https://agecalculatorio.vercel.app)
 
 ---
 
