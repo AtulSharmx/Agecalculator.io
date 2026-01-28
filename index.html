@@ -16,7 +16,22 @@
             <label for="birthday">Enter your date of birth</label>
             <input type="date" id="birthday" name="birthday">
             <button id="btn">Calculate Age</button>
-            <p id="result">Your age Apper Here</p>
+
+            <div id="resultBox" class="resultBox" aria-live="polite">
+                <p class="resultTitle">Your age (big to small)</p>
+
+                <ul class="resultList">
+                    <li><span class="k">Years:</span> <span class="v" id="ageYears">-</span></li>
+                    <li><span class="k">Months:</span> <span class="v" id="ageMonths">-</span></li>
+                    <li><span class="k">Days:</span> <span class="v" id="ageDays">-</span></li>
+                    <li><span class="k">Hours:</span> <span class="v" id="ageHours">-</span></li>
+                    <li><span class="k">Minutes:</span> <span class="v" id="ageMinutes">-</span></li>
+                    <li><span class="k">Seconds:</span> <span class="v" id="ageSeconds">-</span></li>
+                </ul>
+
+                <p class="hint">Tip: after you calculate once, it updates every second.</p>
+                <p id="msg" class="msg"></p>
+            </div>
         </div>
     </div>
     
