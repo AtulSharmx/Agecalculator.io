@@ -59,3 +59,11 @@ margin-top: 22px;
 font-size: 23px;
 font-weight: 700;
 }
+/* ... keep your existing CSS ... */
+
+#result {
+  margin-top: 18px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
